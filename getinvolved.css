@@ -93,3 +93,37 @@
         .icon-bar a:hover {
             background-color: rgba(0, 155, 0, 0.8);
         }
+
+        
+.container {
+  position: center;
+  
+}
+
+.image {
+  position:relative;
+  display: block;
+  top: 0px;
+  bottom: 0;
+  left: 300px;
+  right: 0;
+  width: 300%;
+  height: 300%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 410px;
+  right: 0;
+  height: 100%;
+  width: 111.5%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgba(0,155,0,0.8);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
