@@ -2,3 +2,4 @@
 [0707/105745.669:ERROR:process_info.cc(631)] range at 0x585026ca00000000, size 0x24c fully unreadable
 [0707/105745.669:ERROR:process_info.cc(631)] range at 0x0, size 0x24c fully unreadable
 [0707/112050.806:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0707/115658.591:ERROR:crash_report_database_win.cc(426)] unexpected header
