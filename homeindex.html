@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+    <link rel="stylesheet" type="text/css" href="homeindex.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -28,100 +28,6 @@
             margin: auto;
             margin-top: 10px;
             margin-bottom: 30px;
-        }
-
-        .icon-bar {
-            width: 100px;
-            margin-top: -30%;
-        }
-
-        .icon-bar a {
-            display: block;
-            text-align: center;
-            padding: 16px;
-            transition: all 0.3s ease;
-            color: white;
-            font-size: 35px;
-            margin-top: 10px;
-        }
-
-        .icon-bar a:hover {
-            background-color: rgba(0, 155, 0, 0.8);
-        }
-        /* The Modal (background) */
-
-        .modal {
-            display: none;
-            /* Hidden by default */
-            position: fixed;
-            /* Stay in place */
-            z-index: 1;
-            /* Sit on top */
-            left: 0;
-            top: 0;
-            width: 100%;
-            /* Full width */
-            height: 100%;
-            /* Full height */
-            overflow: auto;
-            /* Enable scroll if needed */
-            background-color: rgb(0, 0, 0);
-            /* Fallback color */
-            background-color: rgba(0, 0, 0, 0.4);
-            /* Black w/ opacity */
-            padding-top: 60px;
-        }
-        /* Modal Content/Box */
-
-        .modal-content {
-            background-color: blue;
-            margin: 5px auto;
-            /* 15% from the top and centered */
-            border: 1px solid #888;
-            width: 80%;
-            /* Could be more or less, depending on screen size */
-        }
-        /* The Close Button */
-
-        .close {
-            /* Position it in the top right corner outside of the modal */
-            position: absolute;
-            right: 25px;
-            top: 0;
-            color: #000;
-            font-size: 35px;
-            font-weight: bold;
-        }
-        /* Close button on hover */
-
-        .close:hover,
-        .close:focus {
-            color: blue;
-            cursor: pointer;
-        }
-        /* Add Zoom Animation */
-
-        .animate {
-            -webkit-animation: animatezoom 0.6s;
-            animation: animatezoom 0.6s
-        }
-
-        @-webkit-keyframes animatezoom {
-            from {
-                -webkit-transform: scale(0)
-            }
-            to {
-                -webkit-transform: scale(1)
-            }
-        }
-
-        @keyframes animatezoom {
-            from {
-                transform: scale(0)
-            }
-            to {
-                transform: scale(1)
-            }
         }
     </style>
 </head>
@@ -300,7 +206,6 @@
     </a>
         </div>
     </div>
-
     <div class="icon-bar">
         <a class="active" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
         <a href="https://www.snapchat.com/" target="_blank"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
@@ -313,34 +218,73 @@
 
 
 
-    <script>
-        $(document).ready(function () {
-            // Activate Carousel
-            $("#myCarousel").carousel();
+    <div class="container-fluid text-center bg-grey">
+        
+        <SPAN STYLE="background-image:url('images/stat.jpg'); font-size: 50pt;">STATISTICS</SPAN>
+        <h4 style="background-color: white">This Is What They Say:</h4>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/statistic1.jpg" alt="Statistic">
+                    <p><strong>Comment</strong></p>
+                    <p>Text</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/statistic2.jpg" alt="Statistic">
+                    <p><strong>Comment</strong></p>
+                    <p>Text</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/PrisonInfoGraphic.jpg" alt="Statistic">
+                    <p><strong>Comment</strong></p>
+                    <p>Text</p>
+                </div>
+            </div>
+        </div>
 
-            // Enable Carousel Indicators
-            $(".item1").click(function () {
-                $("#myCarousel").carousel(0);
-            });
-            $(".item2").click(function () {
-                $("#myCarousel").carousel(1);
-            });
-            $(".item3").click(function () {
-                $("#myCarousel").carousel(2);
-            });
-            $(".item4").click(function () {
-                $("#myCarousel").carousel(3);
-            });
+<div>
+      <SPAN STYLE="background-image:url('images/breakthrough.png'); font-size: 50pt;">OUR IMPACT</SPAN>
+</div>
 
-            // Enable Carousel Controls
-            $(".left").click(function () {
-                $("#myCarousel").carousel("prev");
+
+
+
+
+
+
+
+        <script>
+            $(document).ready(function () {
+                // Activate Carousel
+                $("#myCarousel").carousel();
+
+                // Enable Carousel Indicators
+                $(".item1").click(function () {
+                    $("#myCarousel").carousel(0);
+                });
+                $(".item2").click(function () {
+                    $("#myCarousel").carousel(1);
+                });
+                $(".item3").click(function () {
+                    $("#myCarousel").carousel(2);
+                });
+                $(".item4").click(function () {
+                    $("#myCarousel").carousel(3);
+                });
+
+                // Enable Carousel Controls
+                $(".left").click(function () {
+                    $("#myCarousel").carousel("prev");
+                });
+                $(".right").click(function () {
+                    $("#myCarousel").carousel("next");
+                });
             });
-            $(".right").click(function () {
-                $("#myCarousel").carousel("next");
-            });
-        });
-    </script>
+        </script>
 
 </body>
 
