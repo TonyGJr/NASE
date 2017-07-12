@@ -80,7 +80,9 @@ h1 {
   width: 300%;
   height: 300%;
 }
-
+.navbar {
+    border:none;
+}
 .overlay {
   position: absolute;
   top: 0;

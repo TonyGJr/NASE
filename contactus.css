@@ -33,6 +33,10 @@ input[type=button]:hover {
     background-color: #45a049;
 }
 
+.navbar {
+    border:none;
+}
+
 .container {
     border-radius: 5px;
     background-color: #e8f3f8;

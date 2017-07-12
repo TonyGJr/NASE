@@ -127,3 +127,6 @@
 .container:hover .overlay {
   opacity: 1;
 }
+.navbar {
+    border:none;
+}

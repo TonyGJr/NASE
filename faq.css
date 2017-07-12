@@ -86,6 +86,7 @@ div.panel {
             color: blue;
             cursor: pointer;
         }
+
         /* Add Zoom Animation */
 
         .animate {
@@ -110,3 +111,6 @@ div.panel {
                 transform: scale(1)
             }
         }
+        .navbar {
+    border:none;
+}

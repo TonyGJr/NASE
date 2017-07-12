@@ -124,7 +124,9 @@
     background-color: rgba(0, 155, 0, 0.8);
     color: #fff;
 }
-
+.navbar {
+    border:none;
+}
 
 
 
