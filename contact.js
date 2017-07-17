@@ -1,13 +1,25 @@
-function submitContactForm (){
-     alert("Thanks For contacting us!")
+$(document).ready(function (){
 
-    var x = document.div["contactForm"]["email"].value;
-     if (x == "")
-        {
-        alert("Email must be filled");
-        }
-    else
-        {
-        alert("Thank you!")
-        }
+    $('#contactForm').on('submit', submitContactForm);
+});
+function submitContactForm (){
+    event.preventDefault();
+    var x = $('#email').val();
+    var y = $("#name").val();
+    var z = $('#city').val();
+   
+    if (y == "") {
+        alert("Name must be filled");
+        return false;
+    } else if (x == "") {
+        alert("Email must be filled")
+    }
+      else if( z== ""){
+        alert("City must be filled")
+      
+    } else {
+        $(this).fadeOut();
+        $("#success").fadeIn();
+    //alert("Thank you for contacting us!")
+    }
 }
