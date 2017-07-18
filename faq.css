@@ -61,7 +61,7 @@ div.panel {
         /* Modal Content/Box */
 
         .modal-content {
-            background-color: blue;
+            background-color: #008000;
             margin: 5px auto;
             /* 15% from the top and centered */
             border: 1px solid #888;

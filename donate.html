@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +10,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel = "stylesheet" type = "text/css" href = "donate.css">
+    <link rel="stylesheet" type="text/css" href="donate.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -27,7 +26,7 @@
 
 <body>
 
-   <nav>
+    <nav>
         <div class="nav-wrapper">
 
             <nav class="navbar navbar-default" style="background-color:black">
@@ -52,21 +51,22 @@
                             <li><a href="ourmission.html" style="font-size: 15px; font-weight: bold;">Our Mission</a></li>
 
                             <li class="dropdown">
-                                <a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 15px; font-weight: bold;">About Us<span class="caret"></span></a>
+                                <a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"
+                                    style="font-size: 15px; font-weight: bold;">About Us<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="aboutus.html">Meet The Crew</a></li>
                                     <li><a href="contactus.html">Contact Us</a></li>
                                 </ul>
 
-                            <li><a href="getinvolved.html" style="font-size: 15px; font-weight: bold;">Get Involved!</a></li>
+                                <li><a href="getinvolved.html" style="font-size: 15px; font-weight: bold;">Get Involved!</a></li>
 
 
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 15px; font-weight: bold;">Know More<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="policy.html">Policy</a></li>
-                                </ul>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 15px; font-weight: bold;">Know More<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="policy.html">Policy</a></li>
+                                    </ul>
                         </ul>
                         <ul class="nav navbar-nav navbar-left">
 
@@ -128,29 +128,49 @@
             </nav>
     </nav>
     <div class="title">
-    <h1>Your Donations Dramatically Changes The Lives Of Many Youth</h1>
+        <h1>Your Donations Dramatically Changes The Lives Of Many Youth</h1>
     </div>
     <div class="row">
         <div class="col-md-3">
             <div class="container">
-                <a href="https://www.paypal.me/TonyGunnJr" target= _blank>
-                <img src="images/donate.jpg" alt="DONATE" class="image" href="www.paypal.com/TonyGunnjr"/>
+                
+                <img src="images/donate.jpg" alt="DONATE" class="image"/>
                 <div class="overlay">
-                    
-                    <div class="text">
-                        <ul style="list-style-type:circle">
-                            <h2 style="width: 200%"><strong>Benefits Are:</strong></h2>
-                            <li>Benefit #1</li>
-                            <li>Benefit #2</li>
-                            <li>Benefit #3</li>
-                            <li>Benefit #4</li>
-                        </ul>
-                    </div>
-                    </a>
-                </div>
+                   <div class="pp-canvasarea">
+<div class="pp-formbox">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="pp-form">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="tonygunn95@gmail.com">
+<input type="hidden" name="item_name" value="Paypal Payment">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+
+Enter amount:<br>
+
+<input type="text" name="amount" value="" class="pp-input"><br>
+
+<input type="hidden" name="on0" value="Payment Details">
+
+Payment notes:<br>
+
+<textarea name="os0" rows="4" cols="16" class="pp-textarea"></textarea><br>
+
+<input type="submit" name="PaypalPayment" value="Send Payment" class="pp-button"><br>
+
+</form>
+
+</div>
+<img src="images/paypal-badge.png" class="pp-badge" alt="Payments through Paypal">
+<div class="pp-clear-float"></div>
+</div>
+<br>
+
+<!-- END PAYPAL FORM -->
+                
             </div>
         </div>
-        
+ </div>  
     </div>
 </body>
+
 </html>
