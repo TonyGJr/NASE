@@ -7,7 +7,7 @@ h2 {
 }
 
 #success{
-    background: white;
+    color:black;
     width: 90%;
     max-width: 420px;
     margin: 15px auto;
@@ -17,12 +17,12 @@ h2 {
 #success i {
     font-size: 100px;
     text-align: center;
-    color: green;
+    color: black;
     width: 100%;
 }
 
 #success h2 {
-    color: #333;
+    color: black;
 }
 
 input[type=text], select, textarea {
