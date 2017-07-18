@@ -4,14 +4,14 @@ $(document).ready(function (){
 });
 function submitContactForm (){
     event.preventDefault();
-    var x = $('#email').val();
+    var x = $('#email')[0];
     var y = $("#name").val();
     var z = $('#city').val();
    
     if (y == "") {
         alert("Name must be filled");
         return false;
-    } else if (x == "") {
+    } else if (x =="") {
         alert("Email must be filled")
     }
       else if( z== ""){

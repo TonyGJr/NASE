@@ -141,13 +141,23 @@
                 <div class="col-md-8" name="contactt">
                     <div class="row">
                         <div class="col-sm-6 form-group">
+                            <label id="nameLabel" for="">Name</label>
                             <input class="form-control" id="name" name="name" placeholder="First And Last Name" type="text" required>
                         </div>
+                        
                         <div class="col-sm-6 form-group">
+                            <label id="emailLabel" for="">Email</label>
                             <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
                         </div>
+                        
+                        <div class="col-sm-6 form-group">
+                            <label id="numberLabel" for="">Number</label>
+                            <input class="form-control" id="Phone number" name="Phone number" placeholder="Phone number" type="telephone" required>
+                        </div>
+                        
                         <div class="col-sm-6 form group">
-                            <input type="text" id="city" name="city" placeholder="Your City..">
+                            <label id="cityLabel" for="">City</label>
+                            <input type="text" id="city" name="city" placeholder="Your City.." required>
                         </div>
                         <div class="col-sm-6 form group">
                             <label for="state">State</label>
@@ -486,10 +496,11 @@
                         </select>
                         </div>
                     </div>
-                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                    <label id="messageLabel" for="">Message</label>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" required></textarea>
                     <div class="row">
                         <div class="col-md-12 form-group">
-                            <button class="btn pull-right" type="submit" onClick="submitContactForm()">Submit</button>
+                            <button class="btn pull-right" type="submit">Submit</button>
                         </div>
                     </div>
                 </div>

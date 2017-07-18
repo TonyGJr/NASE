@@ -39,8 +39,8 @@ h1 {
     position: absolute;
     right: 25px;
     top: 0; 
-    color: #000;
-    font-size: 35px;
+    color: red;
+    font-size: 75px;
     font-weight: bold;
 }
 

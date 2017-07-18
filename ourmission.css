@@ -39,8 +39,8 @@
             position: absolute;
             right: 25px;
             top: 0;
-            color: #000;
-            font-size: 35px;
+            color: red;
+            font-size: 75px;
             font-weight: bold;
         }
         /* Close button on hover */
@@ -90,9 +90,9 @@
 }
 
 .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
+    border: 1px solid blue;
     background-color: #fff !important;
-    color: #f4511e;
+    color: blue;
 }
 
 .panel-heading {

@@ -156,7 +156,7 @@ background-color: #6BF163;
 /* Add some shadows to create a card effect */
 .card {
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
-background-color: blue;
+background-color: rgba(0, 155, 0, 0.8);
 }
 
 /* Some left and right padding inside the container */
@@ -221,8 +221,8 @@ background-color: blue;
     position: absolute;
     right: 25px;
     top: 0; 
-    color: #000;
-    font-size: 35px;
+    color: red;
+    font-size: 75px;
     font-weight: bold;
 }
 
