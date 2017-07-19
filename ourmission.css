@@ -96,8 +96,8 @@
 }
 
 .panel-heading {
-    color: #fff !important;
-    background-color: rgba(0, 155, 0, 0.8) !important;
+    color: inherit;
+    background-color:rgba(0, 155, 0, 0.8) !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;

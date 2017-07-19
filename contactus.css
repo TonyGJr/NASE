@@ -34,16 +34,18 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    background-color: rgba(0, 155, 0, 0.8);
     
 }
 
 input[type=button] {
-    background-color: #4CAF50;
+    background-color: rgba(0, 155, 0, 0.8);
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
 }
 
 input[type=button]:hover {
@@ -56,10 +58,17 @@ input[type=button]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: #e8f3f8;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    font: black !important;
+    background-color: rgba(0, 155, 0, 0.8);
     padding: 20px;
 }
+.form-control {
+font: black !important;
+    color: black !important;
+    background-color: rgba(0, 155, 0, 0.8) !important;
 
+}
 .title {
   display: block;
   width: 60%;
