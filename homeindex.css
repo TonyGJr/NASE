@@ -127,3 +127,6 @@ h4{
          margin: 0 auto;
     
      }
+        .carousel-inner{
+            max-height: 300px;
+        }
