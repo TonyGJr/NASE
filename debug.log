@@ -1,16 +1,2 @@
-[0707/105742.895:ERROR:process_info.cc(631)] range at 0x585026aa00000000, size 0x24c fully unreadable
-[0707/105745.669:ERROR:process_info.cc(631)] range at 0x585026ca00000000, size 0x24c fully unreadable
-[0707/105745.669:ERROR:process_info.cc(631)] range at 0x0, size 0x24c fully unreadable
-[0707/112050.806:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0707/115658.591:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0717/123808.403:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0720/110936.014:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0720/111025.528:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0721/103319.752:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0721/104704.152:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0721/115000.476:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0721/132502.017:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0721/132841.216:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0721/132948.448:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0721/133110.648:ERROR:crash_report_database_win.cc(426)] unexpected header
-[0721/133909.903:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0721/131322.714:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0724/100920.198:ERROR:crash_report_database_win.cc(426)] unexpected header
