@@ -8,7 +8,7 @@
 
     <title>NASE FAQ's</title>
 
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,156 +42,59 @@
         .icon-bar a:hover {
             background-color: rgba(0, 155, 0, 0.8);
         }
-        
     </style>
 </head>
 
 <body>
 
-     <nav>
-        <div class="nav-wrapper">
-
-            <nav class="navbar navbar-default" style="background-color:black">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                            aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-                        <a class="navbar-brand" href="index.html" style="font-weight: bold;">NASE</a>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html" style="font-size: 15px; font-weight: bold;">Home<span class="sr-only">(current)</span></a></li>
-
-                            <li><a href="ourmission.html" style="font-size: 15px; font-weight: bold;">Our Mission</a></li>
-
-                            <li class="dropdown">
-                                <a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 15px; font-weight: bold;">About Us<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="aboutus.html">Meet The Crew</a></li>
-                                    <li><a href="contactus.html">Contact Us</a></li>
-                                </ul>
-
-                            <li><a href="getinvolved.html" style="font-size: 15px; font-weight: bold;">Get Involved!</a></li>
-
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 15px; font-weight: bold;">Know More<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="policy.html">Policy</a></li>
-                                </ul>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-left">
-
-                            <!-- Search Google -->
-                            <center>
-                                <FORM method=GET action="http://www.google.com/search" target=_blank>
-                                    <TABLE bgcolor="#FFFFFF">
-                                        <tr>
-                                            <td>
-                                                <A HREF="http://www.google.com/">
-                                                <br></A>
-                                                <INPUT TYPE=txt name=q size=31 maxlength=255 value="">
-                                                <INPUT TYPE=hidden name=hl value="en">
-                                                <INPUT type=submit name=btnG VALUE="Google Search">
-                                            </td>
-                                        </tr>
-                                    </TABLE>
-                                </FORM>
-                            </center>
-                            <!-- Search Google -->
-                        </ul>
-                        <li><a href="donate.html" style="font-size: 30px; font-weight: bold;">Donate</a></li>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-fluid -->
-
-                <!-- LOGIN BUTTON -->
-                <button onclick="document.getElementById('id01').style.display='block'" style="float:right">Login</button>
-
-                <!-- The Modal -->
-                <div id="id01" class="modal">
-                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-
-                    <!-- Modal Content -->
-                    <form class="modal-content animate" action="/action_page.php">
-                        <div class="imgcontainer">
-                            <img src="images/person-icon-8.png" alt="Avatar" class="avatar">
-                        </div>
-
-                        <div class="container">
-                            <label><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>
-
-                            <label><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>
-
-                            <button type="submit">Login</button>
-                            <input type="checkbox" checked="checked"> Remember me
-                        </div>
-
-                        <div class="container" style="background-color:#f1f1f1">
-                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                            <span class="psw">Forgot <a href="#">password?</a></span>
-                        </div>
-                    </form>
-                    <!-- Login button end -->
-
-            </nav>
-    </nav>
+    <navigation></navigation>
 
     <button class="accordion">What defines the type of youth we look for?</button>
-  <div class="panel">
-    <p>In a world full of distractions and temptations, there are youth that know how to have a little fun, but remain focus on
-        their future goals. We look for youth who have set aside time from school, parties, distractions, etc. and put some hard
-        into their branding, ideas, business concepts, etc.
-    </p>
-  </div>
-  <br>
+    <div class="panel">
+        <p>In a world full of distractions and temptations, there are youth that know how to have a little fun, but remain focus
+            on their future goals. We look for youth who have set aside time from school, parties, distractions, etc. and
+            put some hard into their branding, ideas, business concepts, etc.
+        </p>
+    </div>
+    <br>
 
-<button class="accordion">Is NASE only for minority groups?</button>
-  <div class="panel">
-    <p>Although NASE's main focus is to seek out exceptional minority youth, we practice and promote openiess so that youth of any
-        race, color, ethnicty, gender, nationality, and sex, have opportunities to be involved with us! 
-    </p>
-  </div>
-  <br>
+    <button class="accordion">Is NASE only for minority groups?</button>
+    <div class="panel">
+        <p>Although NASE's main focus is to seek out exceptional minority youth, we practice and promote openiess so that youth
+            of any race, color, ethnicty, gender, nationality, and sex, have opportunities to be involved with us!
+        </p>
+    </div>
+    <br>
 
-<button class="accordion">How does one go about being chosen as an exceptional youth?</button>
-  <div class="panel">
-    <p>Just keep doing what you are doing! We will find you. We also strongly encourage the communities to reach out to us
-        via our contact page and/or email address @ NotAStatisticEnt@gmail.com; as well as come out to our community events
-        when available.
-    </p>
-  </div>
-  <br>
-  <br>
+    <button class="accordion">How does one go about being chosen as an exceptional youth?</button>
+    <div class="panel">
+        <p>Just keep doing what you are doing! We will find you. We also strongly encourage the communities to reach out to
+            us via our contact page and/or email address @ NotAStatisticEnt@gmail.com; as well as come out to our community
+            events when available.
+        </p>
+    </div>
+    <br>
+    <br>
 
 
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].onclick = function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  }
-}
-</script>
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            }
+        }
+
+    </script>
+    <script src="dist/scripts/main.js"></script>
 </body>
+
 </html>

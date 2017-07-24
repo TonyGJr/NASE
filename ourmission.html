@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Our Misson</title>
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,172 +25,73 @@
 
 <body>
 
-     <nav>
-        <div class="nav-wrapper">
+    <navigation></navigation>
 
-            <nav class="navbar navbar-default" style="background-color:black">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                            aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-                        <a class="navbar-brand" href="index.html" style="font-weight: bold;">NASE</a>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html" style="font-size: 15px; font-weight: bold;">Home<span class="sr-only">(current)</span></a></li>
-
-                            <li><a href="ourmission.html" style="font-size: 15px; font-weight: bold;">Our Mission</a></li>
-
-                            <li class="dropdown">
-                                <a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 15px; font-weight: bold;">About Us<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="aboutus.html">Meet The Crew</a></li>
-                                    <li><a href="contactus.html">Contact Us</a></li>
-                                </ul>
-
-                            <li><a href="getinvolved.html" style="font-size: 15px; font-weight: bold;">Get Involved!</a></li>
-
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 15px; font-weight: bold;">Know More<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="policy.html">Policy</a></li>
-                                </ul>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-left">
-
-                            <!-- Search Google -->
-                            <center>
-                                <FORM method=GET action="http://www.google.com/search" target=_blank>
-                                    <TABLE bgcolor="#FFFFFF">
-                                        <tr>
-                                            <td>
-                                                <A HREF="http://www.google.com/">
-                                                <br></A>
-                                                <INPUT TYPE=txt name=q size=31 maxlength=255 value="">
-                                                <INPUT TYPE=hidden name=hl value="en">
-                                                <INPUT type=submit name=btnG VALUE="Google Search">
-                                            </td>
-                                        </tr>
-                                    </TABLE>
-                                </FORM>
-                            </center>
-                            <!-- Search Google -->
-                        </ul>
-                        <li><a href="donate.html" style="font-size: 30px; font-weight: bold;">Donate</a></li>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-fluid -->
-
-                <!-- LOGIN BUTTON -->
-                <button onclick="document.getElementById('id01').style.display='block'" style="float:right">Login</button>
-
-                <!-- The Modal -->
-                <div id="id01" class="modal">
-                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-
-                    <!-- Modal Content -->
-                    <form class="modal-content animate" action="/action_page.php">
-                        <div class="imgcontainer">
-                            <img src="images/person-icon-8.png" alt="Avatar" class="avatar">
-                        </div>
-
-                        <div class="container">
-                            <label><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>
-
-                            <label><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>
-
-                            <button type="submit">Login</button>
-                            <input type="checkbox" checked="checked"> Remember me
-                        </div>
-
-                        <div class="container" style="background-color:#f1f1f1">
-                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                            <span class="psw">Forgot <a href="#">password?</a></span>
-                        </div>
-                    </form>
-                    <!-- Login button end -->
-
-            </nav>
-    </nav>
- 
     <div class="container-fluid">
-  <div class="text-center">
-    <h2 style="background:rgba(0, 155, 0, 0.8)">Our Mission</h2>
-    <h4 style="font-size:20px; background:#f1f1f1">"Every Now And Then, Even Rain Falls" - Tony Gunn Jr.</h4>
-  </div>
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Build</h1>
+        <div class="text-center">
+            <h2 style="background:rgba(0, 155, 0, 0.8)">Our Mission</h2>
+            <h4 style="font-size:20px; background:#f1f1f1">"Every Now And Then, Even Rain Falls" - Tony Gunn Jr.</h4>
         </div>
-        <div class="panel-body">
-          <p style="font-size:20px"><strong>Here at NASE, we are passionable about building upon 
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Build</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p style="font-size:20px"><strong>Here at NASE, we are passionable about building upon 
               the youth and their ideas. We want to aid them in the thought process and action process 
               of making their ideas realistic and reality.</strong></p>
-        </div>
-        <div class="panel-footer">
-          <h3>Picture</h3>
-          <h4>(MAYBE)</h4>
-          <button class="btn btn-lg">Learn More</button>
-        </div>
-      </div> 
-    </div> 
-    <div class="col-sm-4">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Invest</h1>
-        </div>
-        <div class="panel-body">
-          <p style="font-size:20px"><strong>An aspect of our mission is to invest into the ideas, individuals,
+                    </div>
+                    <div class="panel-footer">
+                        <h3>Picture</h3>
+                        <h4>(MAYBE)</h4>
+                        <button class="btn btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Invest</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p style="font-size:20px"><strong>An aspect of our mission is to invest into the ideas, individuals,
                             business plans, etc. of exceptional youth by supporting them in business education,
                             financially when funds are available, and in confidence.</strong></p>
-          
-        </div>
-        <div class="panel-footer">
-          <h3>Picture</h3>
-          <h4>(MAYBE)</h4>
-          <button class="btn btn-lg">Learn More</button>
-        </div>
-      </div> 
-    </div> 
-   <div class="col-sm-4">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Disrupt</h1>
-        </div>
-        <div class="panel-body">
-          <p style="font-size:20px"><strong>Last, but not least, perhaps the most important aspect of our mission is
+
+                    </div>
+                    <div class="panel-footer">
+                        <h3>Picture</h3>
+                        <h4>(MAYBE)</h4>
+                        <button class="btn btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Disrupt</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p style="font-size:20px"><strong>Last, but not least, perhaps the most important aspect of our mission is
               to disrupt the statistics against our youth and prove to themselves that these statistics don't make them!</strong></p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>Picture</h3>
+                        <h4>(MAYBE)</h4>
+                        <button class="btn btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="panel-footer">
-          <h3>Picture</h3>
-          <h4>(MAYBE)</h4>
-          <button class="btn btn-lg">Learn More</button>
-        </div>
-      </div> 
-    </div> 
-  </div>
-</div>
+    </div>
 
 
 
     <script type="text/javascript" src="http://htmlfreecodes.com/codes/rain.js"></script>
 
-
+    <script src="dist/scripts/main.js"></script>
 </body>
 
 </html>
