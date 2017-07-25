@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 
 export class NavigationComponent {
     name = 'NASE';
+    test(){
+      alert('Hello Me');
+    }
 }
